@@ -24,9 +24,8 @@ A simple C# console-based chatbot designed to help users learn about cybersecuri
 2. Open in Visual Studio or VS Code
 3. Build and run the project
 
-```
 dotnet run
-```
+
 
 ## Adding Voice Greeting
 
