@@ -1,22 +1,24 @@
-# CybersecurityChatbot
-#  Cybersecurity Awareness Chatbot
+CyberBuddy: Your Console Companion for Cybersecurity
+Features
 
-A simple C# console-based chatbot designed to help users learn about cybersecurity best practices like password safety, phishing, and safe browsing.
+Warm Voice Welcome – Kicks off with a friendly voice greeting to make users feel right at home.
 
-## Features
+ASCII Art Flair – Displays a cool ASCII logo or symbol on launch to set the tone.
 
-- **Voice Greeting** – Plays a welcome message on startup.
-- **ASCII Art Display** – Displays a logo or symbol using ASCII.
-- **User Interaction** – Asks for your name and personalizes responses.
-- **Cybersecurity Q&A** – Responds to questions about online safety.
-- **Input Validation** – Handles invalid or empty inputs gracefully.
-- **Enhanced Console UI** – Uses borders, colors, and effects for a better experience.
-- **GitHub Actions CI** – Automatically builds and checks your project with every push.
+Personalized Interaction – Asks for your name and tailors its responses for a more personal touch.
+
+Cyber Smarts Q&A – Answers your questions on internet safety, from phishing traps to strong password habits.
+
+Smart Input Handling – Handles blank or unexpected inputs gracefully without crashing.
+
+Upgraded Console UI – Pops with color, borders, and special effects to make the experience more visually appealing.
+
+Automated CI via GitHub Actions – Every code push triggers a build and check to keep things running smooth and error-free.
 
 ##  Requirements
 
 - .NET SDK 7.0 or later
-- Windows (for audio playback using `System.Media`)
+- Windows (for audio playback using System.Media)
 
 ##  How to Run
 
@@ -29,9 +31,9 @@ dotnet run
 
 ## Adding Voice Greeting
 
-Make sure you have `welcome.wav` in the project directory and set its properties to:
-- **Build Action**: `Content`
-- **Copy to Output Directory**: `Copy if newer`
+Make sure you have welcome.wav in the project directory and set its properties to:
+- **Build Action**: Content
+- **Copy to Output Directory**: Copy if newer
 
 ## Sample Questions to Try
 
@@ -43,7 +45,7 @@ Make sure you have `welcome.wav` in the project directory and set its properties
 
 ## GitHub Actions CI
 
-This repo includes a `.github/workflows/dotnet.yml` file that checks your project builds correctly on every push.
+This repo includes a .github/workflows/dotnet.yml file that checks your project builds correctly on every push.
 
 ---
 
